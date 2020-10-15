@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+aiohttp = "*"
+aiohttp-jinja2 = "*"
+uvloop = "*"
+aioreloader = "*"
+pyyaml = "*"
+asyncpg = "~=0.15.0"
+asyncpgsa = "*"
+
+[requires]
+python_version = "3.7"
